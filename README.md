@@ -23,3 +23,6 @@ When New IP address not assigned by AWS:
 * If the public IP address of your instance in a VPC has been released, it will not receive a new one if there is more than one network interface attached to your instance.
 * If your instance's public IP address is released while it has a secondary private IP address that is associated with an Elastic IP address, the instance does not receive a new public IP address.
 
+# Elastic IP addresses (IPv4)
+
+An Elastic IP address is a public IPv4 address that you can allocate to your account. You can associate it to and disassociate it from instances as you require
