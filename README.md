@@ -14,3 +14,12 @@ A public IP address is an IPv4 address that's reachable from the Internet. When 
 If you **require a persistent public IP address** that can be associated to and from instances as you require, use an **Elastic IP address** instead.
 
 If you use **dynamic DNS** to map an existing DNS name to a new instance's public IP address, it might take up to 24 hours for the IP address to propagate through the Internet.As a result, **new instances might not receive traffic while terminated instances continue to receive requests**. -->  To solve this problem, use an **Elastic IP** address. 
+
+When New IP address assigned by AWS:
+> We release your instance's public IP address when it is stopped, hibernated, or terminated. Your stopped or hibernated instance receives a new public IP address when it is started.
+> We release your instance's public IP address when you associate an Elastic IP address with it. When you disassociate the Elastic IP address from your instance, it receives a new public IP address.
+
+When New IP address not assigned by AWS:
+> If the public IP address of your instance in a VPC has been released, it will not receive a new one if there is more than one network interface attached to your instance.
+> If your instance's public IP address is released while it has a secondary private IP address that is associated with an Elastic IP address, the instance does not receive a new public IP address.
+
