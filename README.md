@@ -26,3 +26,21 @@ When New IP address not assigned by AWS:
 # Elastic IP addresses (IPv4)
 
 An Elastic IP address is a public IPv4 address that you can allocate to your account. You can associate it to and disassociate it from instances as you require
+
+# Elastic network interfaces / Network interface
+An elastic network interface is a logical networking component in a VPC that represents a virtual network card. It can include the following attributes:
+
+* A primary private IPv4 address from the IPv4 address range of your VPC
+* A primary IPv6 address from the IPv6 address range of your VPC
+* One or more secondary private IPv4 addresses from the IPv4 address range of your VPC
+* One Elastic IP address (IPv4) per private IPv4 address
+* One public IPv4 address
+* One or more IPv6 addresses
+* One or more security groups
+* A MAC address
+* A source/destination check flag
+* A description
+
+**Source/destination checking**
+You can enable or disable source/destination checks, which ensure that the instance is either the source or the destination of any traffic that it receives. Source/destination checks are **enabled** by default. 
+You must **disable** source/destination checks if the instance runs services such as network address translation, routing, or firewalls.
