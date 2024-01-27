@@ -52,3 +52,13 @@ You must **disable** source/destination checks if the instance runs services suc
  * Edge networking: [Amazon CloudFront](https://aws.amazon.com/cloudfront/), [Amazon Route 53](https://aws.amazon.com/route53/), [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/?blogs-global-accelerator.sort-by=item.additionalFields.createdDate&blogs-global-accelerator.sort-order=desc&aws-global-accelerator-wn.sort-by=item.additionalFields.postDateTime&aws-global-accelerator-wn.sort-order=desc)
  * Application networking: [AWS App Mesh](https://aws.amazon.com/app-mesh/?aws-app-mesh-blogs.sort-by=item.additionalFields.createdDate&aws-app-mesh-blogs.sort-order=desc&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc), [Amazon API Gateway](https://aws.amazon.com/api-gateway/), [AWS Cloud Map](https://aws.amazon.com/cloud-map/)
  * Networking security: [AWS Shield](https://aws.amazon.com/shield/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc), [AWS WAF](https://aws.amazon.com/waf/), [AWS Network Firewall](https://aws.amazon.com/network-firewall/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc), [AWS Firewall Manager](https://aws.amazon.com/firewall-manager/)
+
+**AWS Well-Architected Framework** is built around six pillars:
+* Operational excellence
+* Security
+* Reliability
+* Performance efficiency
+* Cost optimization
+* Sustainability
+
+AWS Shared Responsibility Model -> AWS is responsible for the security **of the cloud** and you are responsible for the security **in the cloud**
