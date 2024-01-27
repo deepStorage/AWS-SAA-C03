@@ -44,3 +44,15 @@ An elastic network interface is a logical networking component in a VPC that rep
 **Source/destination checking**
 You can enable or disable source/destination checks, which ensure that the instance is either the source or the destination of any traffic that it receives. Source/destination checks are **enabled** by default. 
 You must **disable** source/destination checks if the instance runs services such as network address translation, routing, or firewalls.
+
+# AWS Networking Services
+
+Network foundations: Amazon VPC(opens in a new tab), AWS Transit Gateway(opens in a new tab), AWS PrivateLink(opens in a new tab)
+
+Hybrid connectivity: AWS Direct Connect(opens in a new tab), AWS Site-to-Site VPN(opens in a new tab), AWS Client VPN(opens in a new tab), AWS Cloud WAN(opens in a new tab)
+
+Edge networking: Amazon CloudFront(opens in a new tab), Amazon Route 53(opens in a new tab), AWS Global Accelerator(opens in a new tab)
+
+Application networking: AWS App Mesh(opens in a new tab), Amazon API Gateway(opens in a new tab), AWS Cloud Map(opens in a new tab)
+
+Networking security: AWS Shield(opens in a new tab), AWS WAF(opens in a new tab), AWS Network Firewall(opens in a new tab), AWS Firewall Manager
