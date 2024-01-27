@@ -47,7 +47,7 @@ You must **disable** source/destination checks if the instance runs services suc
 
 # AWS Networking Services
 
-Network foundations: Amazon VPC(opens in a new tab), AWS Transit Gateway(opens in a new tab), AWS PrivateLink(opens in a new tab)
+Network foundations: [Amazon VPC](https://docs.aws.amazon.com/vpc/index.html), AWS Transit Gateway(opens in a new tab), AWS PrivateLink(opens in a new tab)
 
 Hybrid connectivity: AWS Direct Connect(opens in a new tab), AWS Site-to-Site VPN(opens in a new tab), AWS Client VPN(opens in a new tab), AWS Cloud WAN(opens in a new tab)
 
