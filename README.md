@@ -47,12 +47,8 @@ You must **disable** source/destination checks if the instance runs services suc
 
 # AWS Networking Services
 
-Network foundations: [Amazon VPC](https://docs.aws.amazon.com/vpc/index.html), AWS Transit Gateway(opens in a new tab), AWS PrivateLink(opens in a new tab)
-
-Hybrid connectivity: AWS Direct Connect(opens in a new tab), AWS Site-to-Site VPN(opens in a new tab), AWS Client VPN(opens in a new tab), AWS Cloud WAN(opens in a new tab)
-
-Edge networking: Amazon CloudFront(opens in a new tab), Amazon Route 53(opens in a new tab), AWS Global Accelerator(opens in a new tab)
-
-Application networking: AWS App Mesh(opens in a new tab), Amazon API Gateway(opens in a new tab), AWS Cloud Map(opens in a new tab)
-
-Networking security: AWS Shield(opens in a new tab), AWS WAF(opens in a new tab), AWS Network Firewall(opens in a new tab), AWS Firewall Manager
+ * Network foundations: [Amazon VPC](https://docs.aws.amazon.com/vpc/index.html), [AWS Transit Gateway](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-transit-gateway.html), AWS PrivateLink
+ * Hybrid connectivity: AWS Direct Connect, AWS Site-to-Site VPN, AWS Client VPN, AWS Cloud WAN
+ * Edge networking: Amazon CloudFront(opens in a new tab), Amazon Route 53(opens in a new tab), AWS Global Accelerator(opens in a new tab)
+ * Application networking: AWS App Mesh(opens in a new tab), Amazon API Gateway(opens in a new tab), AWS Cloud Map(opens in a new tab)
+ * Networking security: AWS Shield(opens in a new tab), AWS WAF(opens in a new tab), AWS Network Firewall(opens in a new tab), AWS Firewall Manager
