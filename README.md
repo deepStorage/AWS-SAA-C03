@@ -77,3 +77,5 @@ AWS Shared Responsibility Model -> AWS is responsible for the security **of the 
 * Amazon API Gateway -  creates, maintains, and secures APIs at any scale.
 * AWS App Mesh -  connects containers and microservices with application-level networking.
 * AWS Cloud Map -  discovers access to the most recent resources and services.
+* AWS Shield - adds a safeguard to your applications against DDoS attacks.
+* AWS WAF -  protects your web application from common web exploits.
