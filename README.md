@@ -64,6 +64,6 @@ You must **disable** source/destination checks if the instance runs services suc
 AWS Shared Responsibility Model -> AWS is responsible for the security **of the cloud** and you are responsible for the security **in the cloud**
 
 * Amazon Virtual Private Cloud - provides a private location to launch AWS resources in an isolated virtual network.
-  Amazon VPC supports services to monitor your network traffic, like [Amazon VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html), [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_architecture.html), [VPC Traffic Mirroring] (https://docs.aws.amazon.com/vpc/latest/mirroring/what-is-traffic-mirroring.html)
+  Amazon VPC supports services to monitor your network traffic, like [Amazon VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html), [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_architecture.html), [VPC Traffic Mirroring](https://docs.aws.amazon.com/vpc/latest/mirroring/what-is-traffic-mirroring.html)
 * AWS Transit Gateway -  is a service to manage and simplify the connections and peering for your Amazon VPCs.
 * AWS PrivateLink -  helps to establish secure and private connectivity between Amazon VPCs, AWS services within your Region or inside another Amazon VPC, and your on premises network.
