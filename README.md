@@ -66,4 +66,14 @@ AWS Shared Responsibility Model -> AWS is responsible for the security **of the 
 * Amazon Virtual Private Cloud - provides a private location to launch AWS resources in an isolated virtual network.
   Amazon VPC supports services to monitor your network traffic, like [Amazon VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html), [Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_architecture.html), [VPC Traffic Mirroring](https://docs.aws.amazon.com/vpc/latest/mirroring/what-is-traffic-mirroring.html)
 * AWS Transit Gateway -  is a service to manage and simplify the connections and peering for your Amazon VPCs.
-* AWS PrivateLink -  helps to establish secure and private connectivity between Amazon VPCs, AWS services within your Region or inside another Amazon VPC, and your on premises network.
+* AWS PrivateLink -  helps to establish secure and private connectivity between Amazon VPCs, AWS services within your Region or inside another Amazon VPC, and your on premises network. 
+* AWS Direct Connect - need to connect your data center to AWS,  to establish a private and dedicated connection.
+* AWS Cloud WAN - need to connect cloud routing and software-defined wide area networks (SD-WANs), you can use to provide a central dashboard for making the connections between your offices, data centers, and Amazon VPCs. You can also use  **AWS Transit Gateway**
+* AWS Client VPN - If you need to connect remote team access to AWS
+* AWS Site-to-Site VPN - If you need to connect remote offices to AWS
+* Amazon CloudFront -  delivers data, videos, applications, and application programming interfaces (APIs)  with lower latency and higher transfer speeds.
+* AWS Global Accelerator -  optimizes your user traffic, from the user to your application.
+  **AWS Shield Standard** and **AWS WAF** works for Cloudfront, Route53 and Global Accelerator.
+* Amazon API Gateway -  creates, maintains, and secures APIs at any scale.
+* AWS App Mesh -  connects containers and microservices with application-level networking.
+* AWS Cloud Map -  discovers access to the most recent resources and services.
