@@ -79,3 +79,18 @@ AWS Shared Responsibility Model -> AWS is responsible for the security **of the 
 * AWS Cloud Map -  discovers access to the most recent resources and services.
 * AWS Shield - adds a safeguard to your applications against DDoS attacks.
 * AWS WAF -  protects your web application from common web exploits.
+
+  **IAM** is a web service that helps you securely control access to AWS resources for your users.
+  You can configure IAM to control who can access your AWS resources, and what they can do with those resources.
+
+  IAM uses?
+  * Shared access to an AWS account. Grant other user permissions to administer resources.
+  * Granular permission
+  * AWS MFA. One MFA device per IAM user
+  * Secure access to AWS resources for application that run on EC2
+  * Identity federation
+ 
+  IAM can't use?
+  * Amazon EC2 SSH keys
+  * Windows RDP certificates
+  * 
