@@ -95,3 +95,10 @@ AWS Shared Responsibility Model -> AWS is responsible for the security **of the 
   * Windows RDP certificates
     
 AWS **Security Token Service**(**STS**) provides users with temporary security credentialsto your AWS resources.
+  Identity Federation - 
+   ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/e81ae017-cbb4-45ee-af38-f6c0b1f3cf26)
+
+   
+
+   
+
