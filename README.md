@@ -93,4 +93,5 @@ AWS Shared Responsibility Model -> AWS is responsible for the security **of the 
   IAM can't use?
   * Amazon EC2 SSH keys
   * Windows RDP certificates
-  * 
+    
+AWS **Security Token Service**(**STS**) provides users with temporary security credentialsto your AWS resources.
