@@ -98,6 +98,9 @@ AWS **Security Token Service**(**STS**) provides users with temporary security c
 
 Identity Federation - 
    ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/e81ae017-cbb4-45ee-af38-f6c0b1f3cf26)
+AWS PartnerCast - Windows on AWS Series: Integration of AWS-based and Microsoft-based Identity Systems - Technical
+Managed AD vs  AD on EC2 Comparison:
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/f242abc2-92da-415d-bea8-3bfa193a36a2)
 
    
 
