@@ -106,7 +106,13 @@ Managed AD vs  AD on EC2 Comparison:
 When to choose:
 ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/16fe3722-c503-40b1-82e3-34a8e881eb91)
 
-   
+**AWS Control Tower**   
+AWS Control Tower can help you in the following ways:
+* You can automate setup with just a few steps. You use established blueprints to configure your AWS environment with components such as a **multi-account structure**, identity and federated access management, and account provisioning workflows.
+* You can apply security and compliance policies using established **guardrails**. In addition, you can detect and remediate non-compliant accounts and resources as your team provisions them.
+* You get a visual summary of your AWS environment through a dashboard, from which you can view your accounts, guardrails, and compliance status, all in one place.
+
+  
 
    
 
