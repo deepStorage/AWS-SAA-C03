@@ -132,10 +132,9 @@ To baseline an account is to set up its blueprints and guardrails. The baselinin
 5) Supports lifecycle events so that you can configure any additional custom automations as part of new account creation
 
 **What types of guardrails does AWS Control Tower provide?**
+  
   AWS Control Tower provides two types of guardrails: 
-
 **Preventive guardrails** prevent policy violations through enforcement and are implemented using AWS CloudFormation and SCPs.
-
 **Detective guardrails** detect policy violations and alert in the dashboard. Detective controls are implemented by using AWS Config rules.
 
 
