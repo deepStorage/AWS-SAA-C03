@@ -108,6 +108,7 @@ When to choose:
 
 **AWS Control Tower**   
 _My Dk point_ - It is tool to automate the setup of multiple AWS accounts under an organisation with automatic security, IAM rules, policies and automatic deployment process defined.
+
 AWS Control Tower can help you in the following ways:
 * You can automate setup with just a few steps. You use established blueprints to configure your AWS environment with components such as a **multi-account structure**, identity and federated access management, and account provisioning workflows.
 * You can apply security and compliance policies using established **guardrails**. In addition, you can detect and remediate non-compliant accounts and resources as your team provisions them.
@@ -117,9 +118,27 @@ AWS Control Tower can help you in the following ways:
 * There is no additional charge to use AWS Control Tower.
 * you will pay for services such as AWS Service Catalog, CloudTrail, AWS Config, Amazon CloudWatch, Amazon Simple Notification Service (Amazon SNS), Amazon Simple Storage Service (Amazon S3), and Amazon Virtual Private Cloud (Amazon VPC), based on your usage of these services
 
-  
+**Account Baseline means**
+To baseline an account is to set up its blueprints and guardrails. The baselining process also sets up the centralized logging and security audit roles on the account, as part of deploying the blueprints. AWS Control Tower baselines are contained in the roles that you apply to every enrolled account.
 
-  
+**Account Service Catalog means**
+**IT administrators can use AWS Service Catalog to create, manage, and distribute portfolios of approved products to end users.** These users then have access to the products that they need in a personalized portal. Therefore, you can enforce compliance with organizational business standards, manage product lifecycles, and help users find and launch products. In AWS Control Tower, your central cloud administrators and your end users can provision accounts in your landing zone using Account Factory, which is a product in AWS Service Catalog.
+
+**What does AWS Control Tower do automatically?**
+1) Turns on CloudTrail and AWS Config and facilitates centralized login to an Amazon S3 bucket, which is located in a log archive account
+2) Preconfigures Amazon SNS topics that other services can subscribe to
+3) Provides federated access to accounts using IAM Identity Center
+4) Turns on guardrails to protect the resources that AWS Control Tower deploys and detects non-compliance across multiple accounts
+5) Supports lifecycle events so that you can configure any additional custom automations as part of new account creation
+
+**What types of guardrails does AWS Control Tower provide?**
+  AWS Control Tower provides two types of guardrails: 
+
+**Preventive guardrails** prevent policy violations through enforcement and are implemented using AWS CloudFormation and SCPs.
+
+**Detective guardrails** detect policy violations and alert in the dashboard. Detective controls are implemented by using AWS Config rules.
+
+
 
    
 
