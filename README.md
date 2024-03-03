@@ -164,5 +164,10 @@ aws controltower get-control-operation --operation-identifier OP_ID
 
 # AWS Security - Encryption
 
+## Cryptography
+
+Cryptography involves four goals: **confidentiality**, **authentication**, **integrity**, and **non-repudiation**. 
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/0a6b7f6d-6f27-49e1-bec7-55bb9bef11aa)
+
    
 
