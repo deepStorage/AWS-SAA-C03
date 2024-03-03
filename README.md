@@ -80,6 +80,8 @@ AWS Shared Responsibility Model -> AWS is responsible for the security **of the 
 * AWS Shield - adds a safeguard to your applications against DDoS attacks.
 * AWS WAF -  protects your web application from common web exploits.
 
+# IAM
+
   **IAM** is a web service that helps you securely control access to AWS resources for your users.
   You can configure IAM to control who can access your AWS resources, and what they can do with those resources.
 
@@ -93,7 +95,9 @@ AWS Shared Responsibility Model -> AWS is responsible for the security **of the 
   IAM can't use?
   * Amazon EC2 SSH keys
   * Windows RDP certificates
-    
+
+# Security Token Service
+
 AWS **Security Token Service**(**STS**) provides users with temporary security credentialsto your AWS resources.
 
 Identity Federation - 
@@ -106,7 +110,7 @@ Managed AD vs  AD on EC2 Comparison:
 When to choose:
 ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/16fe3722-c503-40b1-82e3-34a8e881eb91)
 
-**AWS Control Tower**   
+# AWS Control Tower  
 _My Dk point_ - It is tool to automate the setup of multiple AWS accounts under an organisation with automatic security, IAM rules, policies and automatic deployment process defined.
 
 AWS Control Tower can help you in the following ways:
