@@ -143,7 +143,18 @@ To baseline an account is to set up its blueprints and guardrails. The baselinin
 **Use Cases For AWS Control Tower**
 ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/475fb8a4-2539-41d1-a932-1729c955332f)
 
+**Other Important points about Control Tower**
+* AWS Control Tower cannot create an account if you are signed in as root user. You must log in as an IAM user
+* In Region deny setting section, When you choose Enabled, AWS Control Tower applies a Region deny preventive guardrail to all registered organization units, or OUs, for that Region.
+* To prohibit access to AWS services based on your AWS Control Tower Region configuration, you can choose Enabled.
 
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/05f2639e-6d07-434f-81db-240a411b0d8d)
+
+Enable AWS Control Tower command using AWS CLI:
+aws controltower enable-control --control-identifier CONTROL_ARN --target-identifier OU_ARN
+
+Check status command:
+aws controltower get-control-operation --operation-identifier OP_ID
 
 
 
