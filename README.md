@@ -114,6 +114,9 @@ AWS Control Tower can help you in the following ways:
 * You can apply security and compliance policies using established **guardrails**. In addition, you can detect and remediate non-compliant accounts and resources as your team provisions them.
 * You get a visual summary of your AWS environment through a dashboard, from which you can view your accounts, guardrails, and compliance status, all in one place.
 
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/84e4e3e8-454f-471c-8a9e-ca973d9e301a)
+
+
 **How much does AWS Control Tower cost?**
 * There is no additional charge to use AWS Control Tower.
 * you will pay for services such as AWS Service Catalog, CloudTrail, AWS Config, Amazon CloudWatch, Amazon Simple Notification Service (Amazon SNS), Amazon Simple Storage Service (Amazon S3), and Amazon Virtual Private Cloud (Amazon VPC), based on your usage of these services
