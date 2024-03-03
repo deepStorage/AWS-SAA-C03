@@ -169,5 +169,18 @@ aws controltower get-control-operation --operation-identifier OP_ID
 Cryptography involves four goals: **confidentiality**, **authentication**, **integrity**, and **non-repudiation**. 
 ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/0a6b7f6d-6f27-49e1-bec7-55bb9bef11aa)
 
+**Encryption** is generally implemented to ensure data **confidentiality** and **authentication** of the parties involved in secure data transfer and management.
+**Hashing** and **signing**, primarily help enforce data **integrity** and **non-repudiation**.
+
+## Encrypting data with AWS
+
+Encryption can be done in 3 phases:
+1) **Application level:** The app owner can use AWS encryption libraries in their application to encrypt the transaction record before it is sent over the public internet.
+   AWS Encryption SDK, AWS Database Encryption SDK, and Amazon S3 Encryption Client are used here.
+3) **In transit:** The app owner could also choose to encrypt the transaction as it is transferred from the client application to their application servers.
+   AWS Certificate Manager (ACM) and AWS Private Certificate Authority are used here.
+5) **At rest:** The app owner can encrypt the underlying storage supporting the database to mitigate damage in case of a compromise.
+   AWS Key Management Service (AWS KMS) and AWS CloudHSM are used here.
    
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/a9bfa01b-9c5e-4d75-83e6-bf8eeb6f3b66)
 
