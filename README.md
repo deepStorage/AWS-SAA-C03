@@ -151,12 +151,14 @@ To baseline an account is to set up its blueprints and guardrails. The baselinin
 ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/05f2639e-6d07-434f-81db-240a411b0d8d)
 
 Enable AWS Control Tower command using AWS CLI:
+
 aws controltower enable-control --control-identifier CONTROL_ARN --target-identifier OU_ARN
 
 Check status command:
+
 aws controltower get-control-operation --operation-identifier OP_ID
 
-
+# AWS Security - Encryption
 
    
 
