@@ -140,6 +140,11 @@ To baseline an account is to set up its blueprints and guardrails. The baselinin
 **Preventive guardrails** prevent policy violations through enforcement and are implemented using AWS CloudFormation and SCPs.
 **Detective guardrails** detect policy violations and alert in the dashboard. Detective controls are implemented by using AWS Config rules.
 
+**Use Cases For AWS Control Tower**
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/475fb8a4-2539-41d1-a932-1729c955332f)
+
+
+
 
 
    
