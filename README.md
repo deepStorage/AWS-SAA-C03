@@ -209,3 +209,6 @@ Symmetric encryption refers to encryption using algorithms, in which the **same 
 
 > [!NOTE]
 > This type of encryption is most commonly used to authenticate trusted parties in use cases like encrypting **data in transit** using TLS. It is also critical to **payment transactions** and other use cases, such as **digital signing** and **verification**.
+
+**Envelope encryption**
+It is to encrypt the **data key** with **a separate key**, called `a wrapping key`, or `key encryption key`. The process of encrypting the data key with another key is called `envelope encryption`.
