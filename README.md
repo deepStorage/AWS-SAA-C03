@@ -199,4 +199,13 @@ Symmetric encryption refers to encryption using algorithms, in which the **same 
 ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/8c558229-9b53-49b9-902d-88b25d510268)
 
 > [!NOTE]
-> This type of encryption is most commonly used to encrypt data at rest, such as information stored on hard drives, `Amazon Simple Storage Service (Amazon S3)` buckets, or A`mazon Elastic Block Store (Amazon EBS)` volumes
+> This type of encryption is most commonly used to encrypt **data at rest**, such as information stored on hard drives, `Amazon Simple Storage Service (Amazon S3)` buckets, or `Amazon Elastic Block Store (Amazon EBS)` volumes
+
+`What is asymmetric encryption?`
+
+**Asymmetric, or public key, encryption** uses one key to encrypt data, and a different but mathematically related key to decrypt data.
+
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/08c088c7-a506-4f83-8c5c-771038380862)
+
+> [!NOTE]
+> This type of encryption is most commonly used to authenticate trusted parties in use cases like encrypting **data in transit** using TLS. It is also critical to **payment transactions** and other use cases, such as **digital signing** and **verification**.
