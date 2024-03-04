@@ -184,3 +184,9 @@ Encryption can be done in 3 phases:
    
 ![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/a9bfa01b-9c5e-4d75-83e6-bf8eeb6f3b66)
 
+## Encryption Basics
+
+> [!IMPORTANT]
+> What is encryption?
+> Encryption refers to the process of using cryptographic algorithms, with keys to transform data into messages that can only be read using the key.
+> Encryption can be **symmetric** or **asymmetric** depending on the chosen algorithm.
