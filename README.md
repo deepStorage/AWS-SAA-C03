@@ -188,5 +188,10 @@ Encryption can be done in 3 phases:
 
 > [!IMPORTANT]
 > What is encryption?
+>
 > Encryption refers to the process of using cryptographic algorithms, with keys to transform data into messages that can only be read using the key.
 > Encryption can be **symmetric** or **asymmetric** depending on the chosen algorithm.
+
+`What is symmetric encryption?`
+
+Symmetric encryption refers to encryption using algorithms, in which the **same key** is used to both encrypt and decrypt data
