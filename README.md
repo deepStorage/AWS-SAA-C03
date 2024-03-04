@@ -195,3 +195,8 @@ Encryption can be done in 3 phases:
 `What is symmetric encryption?`
 
 Symmetric encryption refers to encryption using algorithms, in which the **same key** is used to both encrypt and decrypt data
+
+![image](https://github.com/deepStorage/AWS-SAA-C03/assets/103733093/8c558229-9b53-49b9-902d-88b25d510268)
+
+> [!NOTE]
+> This type of encryption is most commonly used to encrypt data at rest, such as information stored on hard drives, `Amazon Simple Storage Service (Amazon S3)` buckets, or A`mazon Elastic Block Store (Amazon EBS)` volumes
