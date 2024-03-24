@@ -214,4 +214,4 @@ Symmetric encryption refers to encryption using algorithms, in which the **same 
 It is to encrypt the **data key** with **a separate key**, called `a wrapping key`, or `key encryption key`. The process of encrypting the data key with another key is called `envelope encryption`.
 
 > [!NOTE]
-> If you want Full course and 1000 Questions - latest Exam papers for AWS Certified Solutions Architect Associate. Send me email at deepkumar.nath@gmail.com
+> <red>If you want Full course and 1000 Questions - latest Exam papers for AWS Certified Solutions Architect Associate. Send me email at</red> deepkumar.nath@gmail.com
